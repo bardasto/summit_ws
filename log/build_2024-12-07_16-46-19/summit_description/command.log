@@ -1,0 +1,4 @@
+Invoking command in '/home/user/summit_ws/build/summit_description': CMAKE_PREFIX_PATH=/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/summit_ws/build/summit_description -- -j8 -l8
+Invoked command in '/home/user/summit_ws/build/summit_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/summit_ws/build/summit_description -- -j8 -l8
+Invoking command in '/home/user/summit_ws/build/summit_description': CMAKE_PREFIX_PATH=/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --install /home/user/summit_ws/build/summit_description
+Invoked command in '/home/user/summit_ws/build/summit_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --install /home/user/summit_ws/build/summit_description

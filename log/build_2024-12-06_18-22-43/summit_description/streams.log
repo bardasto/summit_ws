@@ -1,0 +1,137 @@
+[0.022s] Invoking command in '/home/user/summit_ws/build/summit_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake /home/user/summit_ws/src/summit_description -DCMAKE_INSTALL_PREFIX=/home/user/summit_ws/install/summit_description
+[0.299s] -- The C compiler identification is GNU 11.3.0
+[0.495s] -- The CXX compiler identification is GNU 11.3.0
+[0.513s] -- Detecting C compiler ABI info
+[0.595s] -- Detecting C compiler ABI info - done
+[0.604s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.605s] -- Detecting C compile features
+[0.606s] -- Detecting C compile features - done
+[0.611s] -- Detecting CXX compiler ABI info
+[0.697s] -- Detecting CXX compiler ABI info - done
+[0.706s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.706s] -- Detecting CXX compile features
+[0.707s] -- Detecting CXX compile features - done
+[0.716s] -- Found ament_cmake: 2.0.2 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.931s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.123s] -- Found xacro: 2.0.9 (/opt/ros/iron/share/xacro/cmake)
+[1.129s] -- Found rclpy: 4.1.1 (/opt/ros/iron/share/rclpy/cmake)
+[1.136s] -- Found gazebo_ros: 3.7.0 (/opt/ros/iron/share/gazebo_ros/cmake)
+[1.319s] -- Found rosidl_generator_c: 4.0.0 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.350s] -- Found rosidl_generator_cpp: 4.0.0 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.393s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.444s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.742s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.754s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[2.437s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.490s] -- Found FastRTPS: /opt/ros/iron/include  
+[2.566s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.109s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.111s] -- Checking for module 'bullet>=2.82'
+[3.123s] --   Found bullet, version 3.05
+[3.552s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[3.799s] -- Found assimp: /usr/include (found version "5.2.0") 
+[4.174s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[4.544s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[4.801s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[4.950s] -- Looking for ignition-math6 -- found version 6.12.0
+[5.175s] -- Searching for dependencies of ignition-math6
+[5.338s] -- Looking for OGRE...
+[5.338s] -- OGRE_PREFIX_WATCH changed.
+[5.343s] -- Checking for module 'OGRE'
+[5.355s] --   Found OGRE, version 1.9.0
+[5.436s] -- Found Ogre Ghadamon (1.9.0)
+[5.446s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[5.457s] -- Looking for OGRE_Paging...
+[5.467s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[5.467s] -- Looking for OGRE_Terrain...
+[5.476s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[5.476s] -- Looking for OGRE_Property...
+[5.485s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[5.485s] -- Looking for OGRE_RTShaderSystem...
+[5.493s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[5.493s] -- Looking for OGRE_Volume...
+[5.565s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[5.565s] -- Looking for OGRE_Overlay...
+[5.571s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[5.770s] -- Looking for ignition-math6 -- found version 6.12.0
+[5.777s] -- Looking for ignition-transport8 -- found version 8.2.1
+[5.777s] -- Searching for dependencies of ignition-transport8
+[5.806s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[5.828s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[5.833s] -- Checking for module 'libzmq >= 4'
+[5.901s] --   Found libzmq , version 4.3.4
+[5.938s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[5.945s] -- Checking for module 'uuid'
+[5.998s] --   Found uuid, version 2.37.2
+[6.027s] -- Found UUID: TRUE  
+[6.034s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.035s] -- Searching for dependencies of ignition-msgs5
+[6.067s] -- Looking for ignition-math6 -- found version 6.12.0
+[6.073s] -- Checking for module 'tinyxml2'
+[6.084s] --   Found tinyxml2, version 9.0.0
+[6.117s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.123s] -- Looking for ignition-common3 -- found version 3.14.0
+[6.124s] -- Searching for dependencies of ignition-common3
+[6.125s] -- Looking for dlfcn.h - found
+[6.126s] -- Looking for libdl - found
+[6.127s] -- Found DL: TRUE  
+[6.143s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[6.145s] -- Searching for <ignition-common3> component [graphics]
+[6.151s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[6.152s] -- Searching for dependencies of ignition-common3-graphics
+[6.152s] -- Looking for ignition-math6 -- found version 6.12.0
+[6.160s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[6.161s] -- Searching for dependencies of ignition-fuel_tools4
+[6.369s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[6.386s] -- Checking for module 'jsoncpp'
+[6.474s] --   Found jsoncpp, version 1.9.5
+[6.507s] -- Found JSONCPP: TRUE  
+[6.517s] -- Checking for module 'libzip'
+[6.530s] --   Found libzip, version 1.7.3
+[6.562s] -- Found ZIP: TRUE  
+[6.563s] -- Looking for ignition-common3 -- found version 3.14.0
+[6.563s] -- Looking for ignition-math6 -- found version 6.12.0
+[6.564s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[6.639s] -- Gazebo version: 11.10
+[6.639s] -- Checking for module 'tbb'
+[6.679s] --   Found tbb, version 2021.5.0
+[6.797s] -- Configuring done
+[6.805s] -- Generating done
+[6.807s] -- Build files have been written to: /home/user/summit_ws/build/summit_description
+[6.821s] Invoked command in '/home/user/summit_ws/build/summit_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake /home/user/summit_ws/src/summit_description -DCMAKE_INSTALL_PREFIX=/home/user/summit_ws/install/summit_description
+[6.824s] Invoking command in '/home/user/summit_ws/build/summit_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/summit_ws/build/summit_description -- -j8 -l8
+[6.865s] Invoked command in '/home/user/summit_ws/build/summit_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/summit_ws/build/summit_description -- -j8 -l8
+[6.903s] Invoking command in '/home/user/summit_ws/build/summit_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --install /home/user/summit_ws/build/summit_description
+[6.909s] -- Install configuration: ""
+[6.909s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/urdf
+[6.909s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/urdf/base
+[6.909s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/urdf/base/summit_base.gazebo.xacro
+[6.909s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/urdf/base/summit_base.urdf.xacro
+[6.910s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/urdf/wheels
+[6.910s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/urdf/wheels/omni_wheel.urdf.xacro
+[6.910s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/urdf/summit.urdf.xacro
+[6.910s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/meshes
+[6.910s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/meshes/base
+[6.910s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/meshes/base/summit_base.dae
+[6.910s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/meshes/wheels
+[6.910s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/meshes/wheels/omni_wheel_2.dae
+[6.912s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/meshes/wheels/omni_wheel_1.dae
+[6.914s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/launch
+[6.914s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/launch/summit_launch.py
+[6.914s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/config
+[6.915s] -- Installing: /home/user/summit_ws/install/summit_description/share/ament_index/resource_index/package_run_dependencies/summit_description
+[6.915s] -- Installing: /home/user/summit_ws/install/summit_description/share/ament_index/resource_index/parent_prefix_path/summit_description
+[6.915s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/environment/ament_prefix_path.sh
+[6.915s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/environment/ament_prefix_path.dsv
+[6.915s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/environment/path.sh
+[6.916s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/environment/path.dsv
+[6.916s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/local_setup.bash
+[6.916s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/local_setup.sh
+[6.916s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/local_setup.zsh
+[6.916s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/local_setup.dsv
+[6.917s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/package.dsv
+[6.917s] -- Installing: /home/user/summit_ws/install/summit_description/share/ament_index/resource_index/packages/summit_description
+[6.917s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/cmake/summit_descriptionConfig.cmake
+[6.917s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/cmake/summit_descriptionConfig-version.cmake
+[6.918s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/package.xml
+[6.920s] Invoked command in '/home/user/summit_ws/build/summit_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --install /home/user/summit_ws/build/summit_description

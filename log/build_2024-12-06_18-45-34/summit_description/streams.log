@@ -1,0 +1,36 @@
+[0.023s] Invoking command in '/home/user/summit_ws/build/summit_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/summit_ws/build/summit_description -- -j8 -l8
+[0.087s] Invoked command in '/home/user/summit_ws/build/summit_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --build /home/user/summit_ws/build/summit_description -- -j8 -l8
+[0.139s] Invoking command in '/home/user/summit_ws/build/summit_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --install /home/user/summit_ws/build/summit_description
+[0.149s] -- Install configuration: ""
+[0.150s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/urdf
+[0.150s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/urdf/base
+[0.150s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/urdf/base/summit_base.gazebo.xacro
+[0.150s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/urdf/base/summit_base.urdf.xacro
+[0.150s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/urdf/wheels
+[0.150s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/urdf/wheels/omni_wheel.urdf.xacro
+[0.151s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/urdf/summit.urdf.xacro
+[0.151s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/meshes
+[0.151s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/meshes/base
+[0.151s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/meshes/base/summit_base.dae
+[0.151s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/meshes/wheels
+[0.151s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/meshes/wheels/omni_wheel_2.dae
+[0.152s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/meshes/wheels/omni_wheel_1.dae
+[0.152s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/launch
+[0.152s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/launch/summit_launch.py
+[0.152s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/config
+[0.152s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/ament_index/resource_index/package_run_dependencies/summit_description
+[0.152s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/ament_index/resource_index/parent_prefix_path/summit_description
+[0.152s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/environment/ament_prefix_path.sh
+[0.152s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/environment/ament_prefix_path.dsv
+[0.152s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/environment/path.sh
+[0.152s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/environment/path.dsv
+[0.153s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/local_setup.bash
+[0.153s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/local_setup.sh
+[0.153s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/local_setup.zsh
+[0.153s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/local_setup.dsv
+[0.153s] -- Installing: /home/user/summit_ws/install/summit_description/share/summit_description/package.dsv
+[0.153s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/ament_index/resource_index/packages/summit_description
+[0.153s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/cmake/summit_descriptionConfig.cmake
+[0.153s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/cmake/summit_descriptionConfig-version.cmake
+[0.153s] -- Up-to-date: /home/user/summit_ws/install/summit_description/share/summit_description/package.xml
+[0.156s] Invoked command in '/home/user/summit_ws/build/summit_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron _=/usr/bin/env /usr/bin/cmake --install /home/user/summit_ws/build/summit_description

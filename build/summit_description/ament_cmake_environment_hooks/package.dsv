@@ -1,0 +1,4 @@
+source;share/summit_description/local_setup.bash
+source;share/summit_description/local_setup.dsv
+source;share/summit_description/local_setup.sh
+source;share/summit_description/local_setup.zsh
